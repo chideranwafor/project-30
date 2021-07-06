@@ -1,0 +1,413 @@
+html,
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    max-width: 1440px;
+    height: 100%;
+}
+
+.row {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #FFFFFF !important;
+    padding: 25px 0;
+}
+
+.container-fluid {
+    padding: 0 3.75rem 0 4rem
+}
+
+.navbar-brand {
+    margin-right: 4.813rem;
+}
+
+.align-text-top {
+    vertical-align: middle !important;
+}
+
+a.navbar-brand span {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.26px;
+    color: #9C27B0;
+    width: 96px;
+    height: 29px;
+    margin-left: 10.24px;
+}
+
+button.navbar-toggler {
+    background-color: #9C27B0;
+}
+
+ul.navbar-nav li.nav-item a.nav-link,
+a.dropdown-item,
+button.btn {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17.07px;
+}
+
+ul.navbar-nav li.nav-item a.nav-link {
+    color: #000000;
+    padding: 0px 25px;
+}
+
+.dropdown-menu[data-bs-popper] {
+    margin-top: 15%;
+    border-radius: 0;
+    border-top: 4px solid #9C27B0;
+
+}
+
+a.dropdown-item {
+    padding-top: 13px;
+    padding-left: 25px;
+}
+
+a.dropdown-item:hover {
+    background-color: #9C27B0;
+}
+
+hr.dropdown-divider {
+    margin: 0;
+}
+
+ul.navbar-nav li.nav-item a.nav-link img {
+    padding: 0px 35px;
+}
+
+button.btn-primary,
+button.btn-secondary:hover {
+    background-color: #FFFFFF;
+    color: #9C27B0;
+    border-color: #9C27B0;
+    border-radius: 5px;
+}
+
+button.btn-secondary,
+button.btn-primary:hover {
+    background-color: #9c27b0;
+    color: #FFFFFF;
+    border-color: #9C27B0;
+    border-radius: 5px;
+}
+
+button.login-button {
+    padding: 12px 23px 11px;
+    margin-right: 6px
+}
+
+button.signup-button {
+    padding: 12px 18px 11px 19px;
+    margin-left: 6px;
+}
+
+.header img {
+    margin-top: 6.3rem;
+}
+
+.header div.description {
+    position: absolute;
+    width: 50%;
+    top: 18.313rem;
+    left: 11.5rem;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 78px;
+    color: #9C27B0;
+}
+
+button.get-started-button {
+    background: #9C27B0;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+    padding: 13px 48px 14px 48px;
+    margin-top: 9%;
+}
+
+div.header-bottom {
+    margin: 0 152px 0 184px;
+}
+
+div button.download-button {
+    width: 368px;
+    height: 134px;
+    margin: 64px 0 81px;
+    background: #FFFFFF;
+    border: none;
+    box-shadow: 1px 6px 20px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: left;
+    line-height: 37px;
+    color: #9C27B0;
+    padding: 1.688rem 2.688rem 1.875rem;
+}
+
+div button.download-button:hover {
+    background: #9C27B0;
+    color: #FFFFFF;
+}
+
+div.row div.store-logo {
+    margin: 98px 0 115px;
+    display: flex;
+}
+
+div.row div.store-logo img {
+    margin: 0;
+}
+
+div.row div.store-logo img.apple-store {
+    padding-left: 32px;
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1200px) {
+    .container-fluid {
+        padding: 0 2.75rem 0 3rem
+    }
+
+    .navbar-brand {
+        margin-right: 40px;
+    }
+
+    ul.navbar-nav li.nav-item a.nav-link {
+        color: #000000;
+        padding: 0px 15px;
+    }
+
+    ul.navbar-nav li.nav-item a.nav-link img {
+        padding: 0px 25px;
+    }
+
+    button.login-button {
+        padding: 12px 17px 11px;
+        margin-right: 4px
+    }
+
+    button.signup-button {
+        padding: 12px 12px 11px 13px;
+        margin-left: 4px;
+    }
+
+    .header div.description {
+        position: absolute;
+        width: 55%;
+        top: 15.313rem;
+        left: 6.5rem;
+        font-weight: 900;
+        font-size: 55px;
+        line-height: 74px;
+    }
+
+    button.get-started-button {
+        font-weight: 600;
+        font-size: 27px;
+        line-height: 40px;
+        padding: 13px 48px 14px 48px;
+        margin-top: 9%;
+    }
+
+    div.header-bottom {
+        margin: 0 4.5rem 0 6.5rem;
+    }
+
+    div button.download-button {
+        width: 300px;
+        margin: 64px 0 81px;
+        font-weight: 700;
+        font-size: 21px;
+        text-align: left;
+        line-height: 37px;
+        padding: 1.688rem 1.688rem 1.875rem;
+    }
+
+    div.row div.store-logo {
+        margin: 98px 0 115px;
+        display: flex;
+    }
+
+    div.row div.store-logo img.apple-store {
+        padding-left: 0;
+    }
+}
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991px) {
+    .container-fluid {
+        padding: 0 2.75rem 0 3rem
+    }
+
+    ul.navbar-nav li.nav-item a.nav-link,
+    button.btn {
+        font-size: 19px;
+        font-weight: 700;
+        line-height: 17px;
+        text-align: center;
+    }
+
+    ul.navbar-nav li.nav-item a.nav-link {
+        padding: 10px;
+    }
+
+    .dropdown-menu[data-bs-popper] {
+        margin-top: 0;
+        border: 0;
+    }
+
+    a.dropdown-item {
+        text-align: center;
+        padding-top: 13px;
+    }
+
+    hr.dropdown-divider {
+        margin: 0;
+    }
+
+    form.d-flex {
+        justify-content: center;
+    }
+
+    button.login-button {
+        padding: 12.24px 43.12px 10.76px 49.88px;
+        margin-right: 16px
+    }
+
+    button.signup-button {
+        padding: 12.24px 37.95px 10.76px 45.05px;
+        margin-left: 16px;
+    }
+
+    .header div.description {
+        position: absolute;
+        width: 55%;
+        top: 13.313rem;
+        left: 4.5rem;
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    button.get-started-button {
+        background: #9C27B0;
+        border: none;
+        border-radius: 5px;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 26px;
+        padding: 13px 48px 14px 48px;
+        margin-top: 9%;
+    }
+
+    div.header-bottom {
+        padding: 0 2.75rem 0 3rem;
+    }
+
+    div button.download-button {
+        width: 320px;
+        margin: 60px 0;
+        font-weight: 700;
+        font-size: 21px;
+        text-align: left;
+        line-height: 37px;
+        padding: 1.688rem 1.688rem 1.875rem;
+    }
+
+    div.row div.store-logo {
+        margin: 0;
+        display: flex;
+        width: 50%;
+    }
+
+    .row {
+        display: block;
+    }
+
+    .col-sm-12 {
+        margin: auto;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 768px) {
+    .header div.description {
+        position: absolute;
+        width: 55%;
+        top: 11.313rem;
+        left: 4.5rem;
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    button.get-started-button {
+        font-size: 20px;
+        line-height: 20px;
+        padding: 13px 30px 14px;
+        margin-top: 0;
+    }
+
+    div.header-bottom {
+        padding: 0;
+    }
+
+    div button.download-button {
+        width: 320px;
+        margin: 60px 0;
+        font-weight: 700;
+        font-size: 21px;
+        text-align: left;
+        line-height: 37px;
+        padding: 1.688rem 1.688rem 1.875rem;
+    }
+
+    div.row div.store-logo {
+        margin: 0;
+        display: flex;
+        width: 40%;
+    }
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 576px) {
+    .header div.description {
+        top: 30%;
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    button.get-started-button {
+        font-size: 15px;
+        line-height: 20px;
+        padding: 13px 30px 14px;
+        margin-top: 0;
+    }
+
+    div.row {
+        display: block;
+    }
+
+    div button.download-button {
+        width: 320px;
+        margin: 60px 0;
+        font-weight: 700;
+        font-size: 21px;
+        text-align: left;
+        line-height: 37px;
+        padding: 1.688rem 1.688rem 1.875rem;
+    }
+
+    div.row div.store-logo {
+        margin: 0;
+        display: flex;
+        width: 50%;
+    }
+}

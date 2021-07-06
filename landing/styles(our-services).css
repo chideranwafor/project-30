@@ -1,0 +1,201 @@
+/* Our Services */
+.services {
+    width: 100%;
+}
+
+.services h1 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 78px;
+    color: #9C27B0;
+    margin: 187px 0 14px;
+}
+
+.services div.service-box {
+    width: 350px;
+    height: 350px;
+    background: #F8F6F9;
+    box-shadow: 1px 6px 28px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 24px;
+    margin: auto;
+}
+
+.services div.box1 {
+    padding: 73px 48px 0;
+}
+
+.services div.box2 {
+    padding: 71.31px 39px 0;
+}
+
+.services div.box3 {
+    padding: 65.75px 34px 0 44px;
+}
+
+.services div.box4 {
+    padding: 80.11px 42px 0 53px;
+}
+
+.services div.box5 {
+    padding: 73px 42px 0 53px;
+}
+
+.services div.box6 {
+    padding: 81.4px 44px 0 51px;
+}
+
+.services div.box1,
+.services div.box4 {
+    margin: 80px 66px 80px 64px;
+}
+
+.services div.box2,
+.services div.box5 {
+    margin: 80px 66px;
+}
+
+.services div.box3,
+.services div.box6 {
+    margin: 80px 62px 80px 66px;
+}
+
+.services div.box1 h6 {
+    margin-top: 38.24px;
+}
+
+.services div.box2 h6 {
+    margin-top: 36.63px;
+}
+
+.services div.box3 h6 {
+    margin-top: 40.79px;
+}
+
+.services div.box4 h6 {
+    margin-top: 30.85px;
+}
+
+.services div.box5 h6 {
+    margin-top: 34.45px;
+}
+
+.services div.box6 h6 {
+    margin-top: 30px;
+}
+
+div.service-box h6 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 24px;
+    letter-spacing: -1px;
+}
+
+div.service-box p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1200px) {
+    /* Our Services */
+    .services h1 {
+        text-align: center;
+        font-weight: 900;
+        font-size: 64px;
+        line-height: 78px;
+        color: #9C27B0;
+    }
+
+    .services div.service-box {
+        width: 300px;
+        height: 350px;
+        background: #F8F6F9;
+        box-shadow: 1px 6px 28px 2px rgba(0, 0, 0, 0.25);
+        border-radius: 24px;
+        margin: auto;
+    }
+
+    .services div.box1 {
+        padding: 71px 46px 0;
+    }
+
+    .services div.box2 {
+        padding: 69.31px 37px 0;
+    }
+
+    .services div.box3 {
+        padding: 63.75px 32px 0 42px;
+    }
+
+    .services div.box4 {
+        padding: 78.11px 40px 0 51px;
+    }
+
+    .services div.box5 {
+        padding: 71px 40px 0 51px;
+    }
+
+    .services div.box6 {
+        padding: 79.4px 42px 0 49px;
+    }
+
+    .services div.box1,
+    .services div.box4 {
+        margin: 78px 46px 78px 44px;
+    }
+
+    .services div.box2,
+    .services div.box5 {
+        margin: 78px 46px;
+    }
+
+    .services div.box3,
+    .services div.box6 {
+        margin: 78px 42px 78px 46px;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991px) {
+    /* Our Services */
+    .services h1 {
+        text-align: center;
+        font-weight: 900;
+        font-size: 54px;
+        line-height: 78px;
+        color: #9C27B0;
+    }
+
+    .services div.service-box {
+        width: 350px;
+        height: 350px;
+        background: #F8F6F9;
+        box-shadow: 1px 6px 28px 2px rgba(0, 0, 0, 0.25);
+        border-radius: 24px;
+        margin: auto;
+    }
+
+    .services div.box1,
+    .services div.box2,
+    .services div.box3,
+    .services div.box4,
+    .services div.box5,
+    .services div.box6 {
+        margin: 80px auto;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 768px) {
+    /* Our Services */
+    .services div.box1,
+    .services div.box2,
+    .services div.box3,
+    .services div.box4,
+    .services div.box5,
+    .services div.box6 {
+        margin: 70px auto;
+    }
+}

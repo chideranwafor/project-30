@@ -1,0 +1,490 @@
+html,
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    max-width: 1440px;
+    background-color: #B8B4B4;
+}
+
+.container,
+.row {
+    max-width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.row>* {
+    padding: 0;
+}
+
+nav {
+    background: #FFFFFF;
+    border: 1px solid #C5B7C3;
+    height: 100%;
+}
+
+.navbar-brand {
+    padding: 51.69px 0 39.09px 12.53%;
+    margin: 0;
+    width: 100%;
+}
+
+.navbar-brand span {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.26px;
+    color: #9C27B0;
+    margin-left: 6%;
+}
+
+.navbar-brand img.align-text-top {
+    vertical-align: middle !important;
+}
+
+.nav-link,
+a.log-out {
+    font-size: 14px;
+}
+
+.nav-link {
+    line-height: 15px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    padding: 19.6px 3px 19.6px 10%;
+    color: #606060;
+    width: 100%;
+}
+
+.nav-link img {
+    margin-right: 16px;
+}
+
+.nav-link img.align-text-top {
+    vertical-align: bottom !important;
+}
+
+nav a.active,
+.nav-link:hover {
+    font-weight: 600;
+}
+
+nav a.active {
+    background: #9C27B0;
+    color: #FFFFFF;
+}
+
+.nav-link:hover {
+    color: #303030;
+}
+
+hr {
+    margin: 0;
+    width: 100%;
+}
+
+a.log-out {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.005em;
+    text-decoration-line: underline;
+    color: #EA533E;
+    padding: 11px 0 11px 29%;
+}
+
+.top-part,
+.message-notification-profile {
+    display: flex;
+}
+
+.top-part {
+    padding: 30px 55px 0 10px;
+}
+
+.input-group {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(160, 160, 160, 0.15);
+    border-radius: 20px;
+    height: 56px;
+    width: 847px;
+    margin-right: 3%;
+}
+
+.input-group input {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+    color: #A5A5A5;
+    border-radius: 20px;
+    border: none;
+}
+
+.input-group-text {
+    padding: 16px 14px 21px;
+    background-color: transparent;
+    border: none;
+}
+
+.message-notification-profile {
+    width: 205px;
+}
+
+.message-notification-profile img {
+    padding: 0 11%;
+}
+
+.profile-box {
+    width: 59px;
+    height: 65px;
+    border-radius: 50%;
+    padding: 0;
+}
+
+.profile-box img {
+    padding: 0;
+}
+
+.gc-body1,
+.gc-body2 {
+    background: #FFFFFF;
+    margin: 30px 18px 49px 12px;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.gc-body1 {
+    padding: 47px 28.8% 71px 27%;
+}
+
+.header1,
+.header2 {
+    display: flex;
+}
+
+.header1 {
+    margin-bottom: 29px;
+}
+
+.header-image1 {
+    margin: 20px;
+}
+
+.header-text1 h5 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 160%;
+    color: #9C27B0;
+    margin-bottom: 1px;
+}
+
+.header-text1 p {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 160%;
+    color: #A9A5AF;
+}
+
+.plan {
+    background: #FFFFFF;
+    border: 1px solid rgba(169, 165, 175, 0.3);
+    box-sizing: border-box;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.plan h5 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #303030;
+    opacity: 0.6;
+    padding: 26px 0 0 32px;
+}
+
+.table>:not(caption)>*>* {
+    border-bottom-width: 0;
+}
+
+th,
+td {
+    text-align: center;
+    letter-spacing: -0.02em;
+}
+
+th {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #ADADAD;
+}
+
+td.sec-row {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #303030;
+}
+
+td.third-row {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    color: #606060;
+}
+
+.join-group {
+    padding-top: 93px;
+}
+
+.join-group h5 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #303030;
+    opacity: 0.6;
+    margin-bottom: 16px;
+}
+
+.mb-3 {
+    margin-bottom: 16px !important;
+}
+
+input[type=text],
+select.form-select {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #ADADAD;
+    opacity: 0.6;
+    padding: 17px 12px;
+}
+
+form button.btn,
+form button.btn:hover {
+    background: #9C27B0;
+    border-color: #9C27B0;
+    border-radius: 15px;
+    margin-top: 16px;
+    padding: 17px 12px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+/* groupContribution2 */
+
+.groupCon-overlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    min-height: 100%;
+}
+
+.transparent-overlay {
+    position: absolute;
+    width: 54.6%;
+    height: 1029px;
+    left: 0px;
+    top: 0px;
+    background: rgba(156, 39, 176, 0.61);
+}
+
+.white-overlay {
+    position: absolute;
+    width: 45.6%;
+    height: 1029px;
+    right: 0px;
+    top: -3px;
+    background: #FFFFFF;
+    padding: 90.25px 0 193.19px 4%;
+}
+
+.text-box {
+    margin-top: 243.4px;
+}
+
+.text-box h5 {
+    width: 257px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 140.4%;
+    letter-spacing: 1px;
+    color: #9C27B0;
+    margin-bottom: 29.03px;
+}
+
+.text-box p.contribution-money {
+    width: 80%;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    color: rgba(0, 0, 0, 0.69);
+    padding-bottom: 101.1px;
+}
+
+.text-box p.pin-text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 131.5%;
+    letter-spacing: 1px;
+    color: rgba(0, 0, 0, 0.9);
+    margin-bottom: 18.81px;
+}
+
+.text-box p.pin {
+    font-weight: 500;
+    font-size: 54.5373px;
+    line-height: 66px;
+    color: #000000;
+}
+
+.text-box div.input-group {
+    width: 162px;
+    height: 37px;
+    border-bottom: 1.51493px solid #000000;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.text-box div.input-group input,
+.text-box div.input-group span {
+    padding-bottom: 12px;
+}
+
+.text-box div.input-group input {
+    font-weight: 500;
+    font-size: 54.5373px;
+    line-height: 66px;
+    color: #000000;
+}
+
+.text-box div.d-grid button,
+.text-box div.d-grid button:hover {
+    background: #9C27B0;
+    border: none;
+    border-radius: 15px;
+    margin: 82px 32.5% 0 0;
+    padding: 18px 20px 20px 50px;
+}
+
+.text-box div.d-grid button img {
+    margin-left: 35%;
+}
+
+/* groupContribution3 */
+
+.gc-body2 {
+    padding-bottom: 218px;
+}
+
+.header2 {
+    align-items: left;
+    padding: 40px 0 0 52.12px;
+}
+
+.header-image2 img {
+    vertical-align: bottom;
+}
+
+.header-text2 h5 {
+    margin-left: 24.12px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #9C27B0;
+}
+
+.successful {
+    text-align: center;
+    margin-top: 228px;
+}
+
+.successful h5 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #9C27B0;
+    margin-bottom: 32px;
+}
+
+.successful p {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: rgba(0, 0, 0, 0.58);
+}
+
+.successful div.d-grid {
+    margin-top: 132px;
+    display: block!important;
+}
+
+.successful div.d-grid button,
+.successful div.d-grid button:hover {
+    width: 25.4%;
+    padding: 19px 0;
+    background: #9C27B0;
+    border: none;
+    border-radius: 15px;
+}
+
+.successful div.d-grid button img {
+    float: right;
+    padding-right: 22.68px;
+}
+
+@media (max-width: 991px) {
+    .gc-body1 {
+        padding: 40px 10% 64px 10%;
+    }
+
+    /* groupContribion3 */
+    .successful div.d-grid button,
+    .successful div.d-grid button:hover {
+        width: 40%;
+    }
+}
+
+@media (max-width: 768px) {
+    .transparent-overlay {
+        width: 20%;
+    }
+
+    .white-overlay {
+        width: 80%;
+    }
+
+    .text-box div.d-grid button {
+        padding: 18px 20px 20px 20px;
+        margin-right: 10%;
+    }
+    /* groupContribion3 */
+    .successful div.d-grid button,
+    .successful div.d-grid button:hover {
+        width: 70%;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar-brand {
+        padding: 51.69px 0 39.09px 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    .navbar-brand span {
+        margin-left: 0;
+    }
+
+    .gc-body1 {
+        margin: 30px 2px 49px 2px;
+        padding: 40px 2% 64px 2%;
+    }
+}

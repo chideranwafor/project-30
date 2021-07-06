@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="/bootstrap-5.0.1-dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="/bootstrap-5.0.1-dist/css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <title>reSEND</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+        <nav class="nav flex-column">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.svg" alt="" class="d-inline-block align-text-top">
+            <span>reSEND</span>
+          </a>
+          <a class="nav-link active" aria-current="page" href="#"><img src="images/dashboard.svg" alt=""
+              class="d-inline-block align-text-top">Dashboard</a>
+          <a class="nav-link" href="#"><img src="images/fund transfer.svg" alt=""
+              class="d-inline-block align-text-top">Fund Transfer</a>
+          <a class="nav-link" href="#"><img src="images/loans.svg" alt=""
+              class="d-inline-block align-text-top">Loans</a>
+          <a class="nav-link" href="#"><img src="images/transaction history.svg" alt=""
+              class="d-inline-block align-text-top">Transaction History</a>
+          <a class="nav-link" href="#"><img src="images/print transaction.svg" alt=""
+              class="d-inline-block align-text-top">Print Transaction</a>
+          <a class="nav-link" href="#"><img src="images/report.svg" alt=""
+              class="d-inline-block align-text-top">Report</a>
+          <a class="nav-link" href="#"><img src="images/email.svg" alt=""
+              class="d-inline-block align-text-top">Email</a>
+          <a class="nav-link" href="/group contribution/index.html"><img src="images/contribution.svg" alt=""
+              class="d-inline-block align-text-top">Contributions</a>
+          <a class="nav-link" href="#"><img src="images/savings.svg" alt=""
+              class="d-inline-block align-text-top">Savings</a>
+          <hr>
+          <a class="nav-link" href="#"><img src="images/support.svg" alt=""
+              class="d-inline-block align-text-top">Support</a>
+          <a class="nav-link" href="#"><img src="images/settings.svg" alt=""
+              class="d-inline-block align-text-top">Settings</a>
+          <a class="log-out" href="#">Log out</a>
+        </nav>
+      </div>
+      <div class="col-lg-10 col-md-9 col-sm-8 col-8">
+        <div class="top-part">
+          <div class="input-group flex-nowrap">
+            <span class="input-group-text" id="addon-wrapping"><img src="images/search.svg" alt=""></span>
+            <input type="search" class="form-control" placeholder="Search" aria-label="Search"
+              aria-describedby="addon-wrapping">
+            <a class="input-group-text" id="addon-wrapping"><img src="images/filter.svg" alt=""></a>
+          </div>
+          <div class="message-notification-profile">
+            <img src="images/message.svg" alt="message">
+            <img src="images/notification.svg" alt="notification">
+            <div class="profile-box"><img src="images/profile image.png" alt=""></div>
+          </div>
+        </div>
+        <div class="acc-dash-graph">
+          <div class="acc-dash">
+            <div class="account-balance">
+              <h6 class="acc-header">Account Balance</h6>
+              <p class="acc-num">221-000-555-444</p>
+              <p class="amount">N1,550,000</p>
+              <p class="date">May 31st, 2021</p>
+            </div>
+            <div class="my-dashboard">
+              <div class="dash">
+                <h5>My Dashboard<span class="material-icons"> more_vert</span></h5>
+              </div>
+              <div class="d-grid gap-2 d-md-block">
+                <a class="btn btn-primary button-ab" href="#" role="button">ADD BENEFICIARIES</a>
+                <a class="btn btn-primary button-fw" href="#" role="button">FUND WALLET</a>
+                <a class="btn btn-primary button-tf" href="#" role="button">TRANSFER FUNDS</a>
+              </div>
+            </div>
+          </div>
+          <div class="graph">
+            <h5>Income vs Expenses</h5>
+            <img src="images/graph.svg" class="img-fluid" alt="">
+          </div>
+        </div>
+        <div class="cards-mywallet">
+          <div class="cards">
+            <div class="card-title">
+              <h5>Cards<span class="material-icons"> more_vert</span></h5>
+            </div>
+            <hr>
+            <div class="card-image">
+              <img src="images/cardss.svg" class="img-fluid" alt="">
+            </div>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end card-button">
+              <a class="btn btn-primary me-md-2 button-ac" href="#" role="button">ADD CARD</a>
+              <a class="btn btn-primary button-dc" href="#" role="button">DELETE CARD</a>
+            </div>
+          </div>
+          <div class="myWallet-groupContribution">
+            <div class="myWallet">
+              <div class="myWallet-header">
+                <h5>My Wallet</h5>
+                <p>Balance <span>N80,000</span></p>
+              </div>
+              <div class="groupContribution-header">
+                <h5>Group Contribution</h5>
+                <p>Balance <span>N0.00</span></p>
+              </div>
+            </div>
+            <div class="grCo">
+              <div class="table-responsive">
+                <table class="table align-middle">
+                  <thead>
+                    <tr>
+                      <th scope="col">DETAILS</th>
+                      <th scope="col"></th>
+                      <th scope="col">AMOUNT</th>
+                      <th scope="col">DATE</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="align-middle">
+                      <td><a href="" class="wallet-details"><img src="images/colored wallet.svg"
+                            alt=""><span>Walllet</span></a></td>
+                      <td><a class="btn btn-primary credit" href="#" role="button">Credit</a></td>
+                      <td class="wallet-amount">N20,000</td>
+                      <td class="wallet-date">21st June, 2021</td>
+                    </tr>
+                    <tr class="align-middle">
+                      <td><a href="" class="wallet-details"><img src="images/colored wallet.svg"
+                            alt=""><span>Walllet</span></a></td>
+                      <td><a class="btn btn-primary credit" href="#" role="button">Credit</a></td>
+                      <td class="wallet-amount">N20,000</td>
+                      <td class="wallet-date">7th June, 2021</td>
+                    </tr>
+                    <tr class="align-middle">
+                      <td><a href="" class="wallet-details"><img src="images/colored savings.svg" alt=""><span>Savings
+                            Acc</span></a></td>
+                      <td><a class="btn btn-primary debit" href="#" role="button">Debit</a></td>
+                      <td class="wallet-amount">N10,000</td>
+                      <td class="wallet-date">7th June, 2021</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="recent-transfer-image">
+          <div class="recent-transfer">
+            <div class="rt-title">
+              <h5>Recent Transfers<span class="material-icons"> more_vert</span></h5>
+            </div>
+            <div class="table-responsive">
+              <table class="table align-middle">
+                <thead>
+                  <tr>
+                    <th scope="col">NAME</th>
+                    <th scope="col">ACCOUNT DETAILS</th>
+                    <th scope="col">NARRATIONS</th>
+                    <th scope="col">AMOUNT</th>
+                    <th scope="col">STATUS</th>
+                    <th scope="col">DATE</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="align-middle">
+                    <td class="rt-name"><img src="images/name1.svg" alt=""><span>Jane
+                        Osoh</span></td>
+                    <td class="rt-acc">UBA-22556677</td>
+                    <td class="rt-narration">May 2021 Salary</td>
+                    <td class="rt-amount">50,000</td>
+                    <td class="rt-status completed">completed</td>
+                    <td class="rt-date">21st June, 2021</td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td class="rt-name"><img src="images/name2.svg" alt=""><span>Don Next</span></td>
+                    <td class="rt-acc">UBA-33558800</td>
+                    <td class="rt-narration">May 2021 Salary</td>
+                    <td class="rt-amount">50,000</td>
+                    <td class="rt-status pending">pending</td>
+                    <td class="rt-date">7th June, 2021</td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td class="rt-name"><img src="images/name3.svg" alt=""><span>Sandy Green</span></td>
+                    <td class="rt-acc">UBA-66779944</td>
+                    <td class="rt-narration">May 2021 Salary</td>
+                    <td class="rt-amount">50,000</td>
+                    <td class="rt-status pending">pending</td>
+                    <td class="rt-date">7th June, 2021</td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td class="rt-name"><img src="images/name4.svg" alt=""><span>Lola Ade</span></td>
+                    <td class="rt-acc">UBA-55889944</td>
+                    <td class="rt-narration">May 2021 Salary</td>
+                    <td class="rt-amount">50,000</td>
+                    <td class="rt-status completed">completed</td>
+                    <td class="rt-date">21st June, 2021</td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td class="rt-name"><img src="images/name5.svg" alt=""><span>John Coy</span></td>
+                    <td class="rt-acc">ZENITH-22554799</td>
+                    <td class="rt-narration">Mobile top</td>
+                    <td class="rt-amount">10,000</td>
+                    <td class="rt-status completed">completed</td>
+                    <td class="rt-date">21st June, 2021</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="rt-view">
+              <a href="#">View all</a>
+            </div>
+          </div>
+          <div class="card bg-dark text-white bottom-image">
+            <img src="images/bottom image.svg" class="card-img" alt="...">
+            <div class="card-img-overlay"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+    integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+    crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+  <!-- <script src="/bootstrap-5.0.1-dist/js/bootstrap.min.js"></script> -->
+</body>
+
+</html>
